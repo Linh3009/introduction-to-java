@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int number, a, b, c;
 
-        System.out.println("Enter number: ");
+        System.out.println("Nhap number: ");
         number = sc.nextInt();
 
         a = number / 100; // Lấy hàng trăm
