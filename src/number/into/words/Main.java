@@ -49,96 +49,40 @@ public class Main {
                 break;
         }
         switch (b) {
-            case 1:
-                System.out.print("");
-                break;
-            case 2:
-                System.out.print(" twenty");
-                break;
-            case 3:
-                System.out.print(" thirty");
-                break;
-            case 4:
-                System.out.print(" forty");
-                break;
-            case 5:
-                System.out.print(" fifty");
-                break;
-            case 6:
-                System.out.print(" sixty");
-                break;
-            case 7:
-                System.out.print(" seventy");
-                break;
-            case 8:
-                System.out.print(" eighty");
-                break;
-            case 9:
-                System.out.print(" ninety");
-                break;
+            case 1 -> System.out.print("");
+            case 2 -> System.out.print(" twenty");
+            case 3 -> System.out.print(" thirty");
+            case 4 -> System.out.print(" forty");
+            case 5 -> System.out.print(" fifty");
+            case 6 -> System.out.print(" sixty");
+            case 7 -> System.out.print(" seventy");
+            case 8 -> System.out.print(" eighty");
+            case 9 -> System.out.print(" ninety");
         }
         if (b == 1) {
             switch (c) {
-                case 0:
-                    System.out.print(" and ten");
-                    break;
-                case 1:
-                    System.out.print(" and eleven");
-                    break;
-                case 2:
-                    System.out.print(" and twelve");
-                    break;
-                case 3:
-                    System.out.print(" and thirteen");
-                    break;
-                case 4:
-                    System.out.print(" and fourteen");
-                    break;
-                case 5:
-                    System.out.print(" and fifteen");
-                    break;
-                case 6:
-                    System.out.print(" and sixteen");
-                    break;
-                case 7:
-                    System.out.print(" and seventeen");
-                    break;
-                case 8:
-                    System.out.print(" and eighteen");
-                    break;
-                case 9:
-                    System.out.print(" and nineteen");
-                    break;
+                case 0 -> System.out.print(" and ten");
+                case 1 -> System.out.print(" and eleven");
+                case 2 -> System.out.print(" and twelve");
+                case 3 -> System.out.print(" and thirteen");
+                case 4 -> System.out.print(" and fourteen");
+                case 5 -> System.out.print(" and fifteen");
+                case 6 -> System.out.print(" and sixteen");
+                case 7 -> System.out.print(" and seventeen");
+                case 8 -> System.out.print(" and eighteen");
+                case 9 -> System.out.print(" and nineteen");
             }
         } else {
             switch (c) {
-                case 1:
-                    System.out.print(" and one");
-                    break;
-                case 2:
-                    System.out.print(" two");
-                    break;
-                case 3:
-                    System.out.print(" three");
-                    break;
-                case 4:
-                    System.out.print(" four");
-                    break;
-                case 5:
-                    System.out.print(" five");
-                    break;
-                case 6:
-                    System.out.print(" six");
-                    break;
-                case 7:
-                    System.out.print(" seven");
-                    break;
-                case 8:
-                    System.out.print(" eight");
-                    break;
-                case 9:
-                    System.out.print(" nine");
-                    break;
+                case 1 -> System.out.print(" one");
+                case 2 -> System.out.print(" two");
+                case 3 -> System.out.print(" three");
+                case 4 -> System.out.print(" four");
+                case 5 -> System.out.print(" five");
+                case 6 -> System.out.print(" six");
+                case 7 -> System.out.print(" seven");
+                case 8 -> System.out.print(" eight");
+                case 9 -> System.out.print(" nine");
             }
         }
     }
